@@ -1,20 +1,39 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+<div class="info-area d-flex flex-column">
+    <div class="d-flex flex-row justify-content-between top-row">
+        <div class="detail-info">
+            <a href="{{eventbriteLink}}" class="descriptive-text">saturday / june 30 / seven pm / mahalls / lakewood / ten dollars / </a>
+            <a href="{{eventbriteLink}}" class="descriptive-text tickets-here">tickets here</a>
+        </div>
+        <a align="right" href="{{blackMusicHistoryLink}}" class="black-music-history descriptive-text">a fundraiser celebrating black music history month</a>
+    </div>
+    <div class="d-flex flex-row justify-content-between align-items-end">
+        <h1>juke joint</h1>
+        <div align="right" class="d-flex flex-column">
+            <div class="with-music-by descriptive-text">with music by:</div>
+            <div class="artist-list descriptive-text">
+                <span><a href="{{danteAndTayLink}}" class="musician">dante & tay</a></span><span> / </span>
+                <span><a href="{{adabLink}}" class="musician">adab</a></span><span> / </span>
+                <span><a href="{{fanaLink}}" class="musician">fana</a></span><span> / </span>
+                <span><a href="{{mazLink}}" class="musician">maz</a></span><span> / </span>
+                <span><a href="{{shirtlessLink}}" class="musician">shirtless</a></span><span> / </span>
+                <span><a href="{{smokescreenLink}}" class="musician">smokescreen</a></span>
+            </div>
+        </div>
+    </div>
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
-
+<a href="{{ampLink}}">
+    <img src="../assets/jukejoint.jpg" class="img-fluid" alt="juke joint flyer">
+</a>
+<footer class="d-flex flex-row justify-content-between">
+    <div class="d-flex flex-column footer-section">
+        <h5>Put on by:</h5>
+        <a href="{{ampLink}}">Amp BIPOC NEO</a>
+        NODS Network
+    </div>
+    <div class="d-flex flex-column footer-section" align="right">
+        <h5>More links:</h5>
+        <a href="{{eventbriteLink}}">Eventbrite (for tickets)</a>
+        <a href="{{facebookEventLink}}">Facebook Event</a>
+        <a href="{{instagramLink}}">Instagram</a>
+    </div>
+</footer>
